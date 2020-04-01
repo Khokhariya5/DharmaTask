@@ -1,0 +1,20 @@
+{
+    "local":{
+        "port": 4000,
+        "database": {
+            "url": ""
+        }
+    },
+    "uat": {
+        "port": 4040,
+        "database": {
+            "url": ""
+        }
+    },
+    "live": {
+        "port": 4040,
+        "database": {
+            "url": ""
+        }
+    }
+}
