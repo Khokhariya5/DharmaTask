@@ -1,12 +1,9 @@
-const express = require("express");
-
+const express = require('express');
 const router = express.Router();
-const app = express();
+const usersController = require('./users.controller');
 
-const usersController = require("./users.controller");
+router.post('/login',usersController.login);
 
+router.post('/register' ,usersController.addUsers);
 
-/** GET /api-status - Check service status **/
-router.get('/all', usersController.getAllUsers);
-
-module.exports =  router;
+module.exports = router

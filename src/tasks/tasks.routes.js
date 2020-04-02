@@ -1,14 +1,12 @@
-const express = require("express");
-
+const express = require('express');
 const router = express.Router();
-const app = express();
 
-//Middlewares
 const jwtAuth = require("../../middlewares/jwtAuth");
 
-//Controllers
-const tasksController = require("./tasks.controller");
+const tasksController = require('./tasks.controller');
 
-router.get('/all', jwtAuth, tasksController.getAllTasks);
+router.get('/user', jwtAuth,tasksController.getTaskByUserId);
 
-module.exports =  router;
+router.post('/create', jwtAuth,tasksController.addTask);
+
+module.exports = router

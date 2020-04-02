@@ -5,7 +5,7 @@ let UserSchema = new Schema({
     firstname: {type: String, required: true},
     lastname: {type: String, required: true},
     email: {type: String, required: true},
-    password: {type: Array, required: true},
+    password: {type: String, required: true},
     insertedAt: {type: Number, default: Date.now},
     updatedAt: {type: Number, default: undefined},
 });

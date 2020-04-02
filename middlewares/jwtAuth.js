@@ -10,8 +10,8 @@ module.exports = function (req, res, next) {
 
         try {
 
-            var decoded = jwt.verify(token, '2aSbs58Coe');
-
+            var decoded = jwt.verify(token, global.ENV_DATA.jwt.key);
+            
             if (decoded.exp <= new Date().getTime())
                 return res.status(401).json({ 
                     error_code: 'TOKEN_EXPIRE', 
