@@ -8,8 +8,6 @@ const CONFIG_FILE = require("./config.json");
 
 global.ENV_DATA = (process.env.NODE_ENV)? CONFIG_FILE[process.env.NODE_ENV]: CONFIG_FILE["local"];
 
-console.log(global.ENV_DATA)
-
 mongoose.connect( global.ENV_DATA.database.url, {
     useNewUrlParser: true
 }, (err, db) => {
