@@ -1,0 +1,82 @@
+FORMAT: 1A
+HOST: http://localhost:4000/apis/
+
+# Login With JWT Demo Api
+
+This project for demo purpose. 
+JWT Login , Register New User, Get List of Cities.
+
+## USER [/user/register]
+
+### REGISTER NEW USER [POST]
+
+Register New User For Access Cities.
+
++ Request (application/json)
+
+        {
+            "firstname": "firstname",
+            "lastname": "lastname",
+            "email": "email",
+            "password": "password",
+        }
+
++ Response 200 (application/json)
+
+    + Headers
+
+    + Body
+
+            {
+                "success": "Success Registration Finish",
+                "data": {
+                    "id": "5ece0464b19fc72194aa1953",
+                    "email": "paresh1@r.com"
+                }
+            }
+            
+## USER [/user/login]
+
+### LOGIN USER [POST]
+
+Login User.
+
++ Request (application/json)
+
+        {
+            "email": "",
+            "password": ""
+        }
+
++ Response 200 (application/json)
+
+    + Headers
+
+    + Body
+
+            {
+                "token" : ""
+            }
+
+## City [/city/cities]
+
+### CITY LIST [GET]
+
+Get List Of Cities.
+
++ Request (application/json)
+
+
++ Response 200 (application/json)
+
+    + Headers
+        
+            
+            x-access-token: ""
+            
+
+    + Body
+
+            {
+                "cities" : []
+            }
