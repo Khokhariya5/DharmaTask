@@ -1,0 +1,184 @@
+{
+  level: 'warn',
+  message: 'Run "npm install apidoc -g" and then run "apidoc -e node_modules/" at your terminal',
+  log: [Error: ENOENT: no such file or directory, access 'C:\Users\R A H J A L\Documents\GitHub\DharmaTask\doc\api_data.json'] {
+    errno: -4058,
+    code: 'ENOENT',
+    syscall: 'access',
+    path: 'C:\\Users\\R A H J A L\\Documents\\GitHub\\DharmaTask\\doc\\api_data.json'
+  },
+  timestamp: '2020-05-26T17:28:29.728Z'
+}
+{
+  level: 'warn',
+  message: 'Run "npm install apidoc -g" and then run "apidoc -e node_modules/" at your terminal',
+  log: [Error: ENOENT: no such file or directory, access 'C:\Users\R A H J A L\Documents\GitHub\DharmaTask\doc\api_data.json'] {
+    errno: -4058,
+    code: 'ENOENT',
+    syscall: 'access',
+    path: 'C:\\Users\\R A H J A L\\Documents\\GitHub\\DharmaTask\\doc\\api_data.json'
+  },
+  timestamp: '2020-05-26T17:30:28.753Z'
+}
+{
+  level: 'error',
+  log: 'POST request error',
+  timestamp: '2020-05-26T17:33:00.063Z'
+}
+{
+  level: 'error',
+  message: 'File "document.html" is missing at "./node_modules/node-api-doc-generator/api_doc" dir',
+  log: [Error: ENOENT: no such file or directory, access 'C:\Users\R A H J A L\Documents\GitHub\DharmaTask\node_modules\node-api-doc-generator\api_doc\document.html'] {
+    errno: -4058,
+    code: 'ENOENT',
+    syscall: 'access',
+    path: 'C:\\Users\\R A H J A L\\Documents\\GitHub\\DharmaTask\\node_modules\\node-api-doc-generator\\api_doc\\document.html'
+  },
+  timestamp: '2020-05-26T17:33:00.903Z'
+}
+{
+  level: 'error',
+  log: 'POST request error',
+  timestamp: '2020-05-26T17:33:03.018Z'
+}
+{
+  level: 'error',
+  message: 'File "document.html" is missing at "./node_modules/node-api-doc-generator/api_doc" dir',
+  log: [Error: ENOENT: no such file or directory, access 'C:\Users\R A H J A L\Documents\GitHub\DharmaTask\node_modules\node-api-doc-generator\api_doc\document.html'] {
+    errno: -4058,
+    code: 'ENOENT',
+    syscall: 'access',
+    path: 'C:\\Users\\R A H J A L\\Documents\\GitHub\\DharmaTask\\node_modules\\node-api-doc-generator\\api_doc\\document.html'
+  },
+  timestamp: '2020-05-26T17:33:04.008Z'
+}
+{
+  level: 'error',
+  message: 'File "document.html" is missing at "./node_modules/node-api-doc-generator/api_doc" dir',
+  log: [Error: ENOENT: no such file or directory, access 'C:\Users\R A H J A L\Documents\GitHub\DharmaTask\node_modules\node-api-doc-generator\api_doc\document.html'] {
+    errno: -4058,
+    code: 'ENOENT',
+    syscall: 'access',
+    path: 'C:\\Users\\R A H J A L\\Documents\\GitHub\\DharmaTask\\node_modules\\node-api-doc-generator\\api_doc\\document.html'
+  },
+  timestamp: '2020-05-27T06:54:18.773Z'
+}
+{
+  level: 'error',
+  log: 'POST request error',
+  timestamp: '2020-05-27T06:54:18.908Z'
+}
+{
+  level: 'error',
+  log: 'POST request error',
+  timestamp: '2020-05-27T06:54:18.916Z'
+}
+{
+  level: 'error',
+  log: 'POST request error',
+  timestamp: '2020-05-27T06:54:18.937Z'
+}
+{
+  level: 'error',
+  message: 'File "document.html" is missing at "./node_modules/node-api-doc-generator/api_doc" dir',
+  log: [Error: ENOENT: no such file or directory, access 'C:\Users\R A H J A L\Documents\GitHub\DharmaTask\node_modules\node-api-doc-generator\api_doc\document.html'] {
+    errno: -4058,
+    code: 'ENOENT',
+    syscall: 'access',
+    path: 'C:\\Users\\R A H J A L\\Documents\\GitHub\\DharmaTask\\node_modules\\node-api-doc-generator\\api_doc\\document.html'
+  },
+  timestamp: '2020-05-27T06:58:44.699Z'
+}
+{
+  level: 'error',
+  log: 'POST request error',
+  timestamp: '2020-05-27T06:58:44.786Z'
+}
+{
+  level: 'error',
+  log: 'POST request error',
+  timestamp: '2020-05-27T06:58:44.804Z'
+}
+{
+  level: 'error',
+  log: 'GET request error',
+  timestamp: '2020-05-27T06:58:44.841Z'
+}
+{
+  level: 'error',
+  message: 'File "document.html" is missing at "./node_modules/node-api-doc-generator/api_doc" dir',
+  log: [Error: ENOENT: no such file or directory, access 'C:\Users\R A H J A L\Documents\GitHub\DharmaTask\node_modules\node-api-doc-generator\api_doc\document.html'] {
+    errno: -4058,
+    code: 'ENOENT',
+    syscall: 'access',
+    path: 'C:\\Users\\R A H J A L\\Documents\\GitHub\\DharmaTask\\node_modules\\node-api-doc-generator\\api_doc\\document.html'
+  },
+  timestamp: '2020-05-27T07:00:55.421Z'
+}
+{
+  level: 'error',
+  log: 'GET request error',
+  timestamp: '2020-05-27T07:00:55.492Z'
+}
+{
+  level: 'error',
+  log: 'POST request error',
+  timestamp: '2020-05-27T07:00:55.533Z'
+}
+{
+  level: 'error',
+  log: 'POST request error',
+  timestamp: '2020-05-27T07:00:55.623Z'
+}
+{
+  level: 'error',
+  message: 'File "document.html" is missing at "./node_modules/node-api-doc-generator/api_doc" dir',
+  log: [Error: ENOENT: no such file or directory, access 'C:\Users\R A H J A L\Documents\GitHub\DharmaTask\node_modules\node-api-doc-generator\api_doc\document.html'] {
+    errno: -4058,
+    code: 'ENOENT',
+    syscall: 'access',
+    path: 'C:\\Users\\R A H J A L\\Documents\\GitHub\\DharmaTask\\node_modules\\node-api-doc-generator\\api_doc\\document.html'
+  },
+  timestamp: '2020-05-27T07:04:26.012Z'
+}
+{
+  level: 'error',
+  log: 'POST request error',
+  timestamp: '2020-05-27T07:04:26.072Z'
+}
+{
+  level: 'error',
+  log: 'POST request error',
+  timestamp: '2020-05-27T07:04:26.103Z'
+}
+{
+  level: 'error',
+  log: 'GET request error',
+  timestamp: '2020-05-27T07:04:26.107Z'
+}
+{
+  level: 'error',
+  message: 'File "document.html" is missing at "./node_modules/node-api-doc-generator/api_doc" dir',
+  log: [Error: ENOENT: no such file or directory, access 'C:\Users\R A H J A L\Documents\GitHub\DharmaTask\node_modules\node-api-doc-generator\api_doc\document.html'] {
+    errno: -4058,
+    code: 'ENOENT',
+    syscall: 'access',
+    path: 'C:\\Users\\R A H J A L\\Documents\\GitHub\\DharmaTask\\node_modules\\node-api-doc-generator\\api_doc\\document.html'
+  },
+  timestamp: '2020-05-27T07:05:28.623Z'
+}
+{
+  level: 'error',
+  log: 'GET request error',
+  timestamp: '2020-05-27T07:05:28.668Z'
+}
+{
+  level: 'error',
+  log: 'POST request error',
+  timestamp: '2020-05-27T07:05:28.748Z'
+}
+{
+  level: 'error',
+  log: 'POST request error',
+  timestamp: '2020-05-27T07:05:28.759Z'
+}

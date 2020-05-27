@@ -7,6 +7,8 @@ const h_bcrypt  =  require("../../helpers/crypt");
 
 const cityModel = require('./cities.model');
 
+const cities = require("./cities.json")
+
 exports.test = (req,res)=>{
     res.send("sasd");
 }
@@ -33,9 +35,10 @@ exports.addCity = async (req, res) => {
 };
 
 exports.getCities = async (req, res) => {
-    cityModel.find({}).exec((err, dt)=> {
-        if(err) return res.status(401).send({ error_code: "INTERNAL_ERROR"}).end();
-        else return res.status(200).send({ data: dt }).end();
-    })
+
+    console.log(cities)
+    res.send(
+       { data: cities.cities }
+    )
 
 }

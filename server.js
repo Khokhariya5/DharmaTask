@@ -50,3 +50,8 @@ var server = app.listen(global.ENV_DATA.port, function () {
 app.use('/apis/user',require('./src/users/users.routes'));
 app.use('/apis/task', require('./src/tasks/tasks.routes'));
 app.use('/apis/city', require('./src/cities/cities.routes'));
+app.get("/apis/document", function(req,res){
+
+    res.sendFile('./apidoc/index.html');
+
+})

@@ -34,7 +34,7 @@ exports.addUsers = async (req, res) => {
             let userModelObject = new userModel(userJson);
         
             await userModelObject.save().then(doc => {                 
-                return res.status(200).send({ success: "Success Registration Finish", data: { id:  doc.id, email: doc.email } }).end();
+                return res.status(200).send({ success: "Success Registration Finish", data: { id:  doc._id, email: doc.email } }).end();
             }).catch(err => { 
                 return res.status(401).send({ error: err, error_code: "INTERNAL_ERROR"}).end();
             })
@@ -58,7 +58,7 @@ exports.login = async (req, res) => {
      
     await userModel.findOne({ email: userJson.email }).exec((err, userDt) => { 
         if(err) return res.status(401).send({ error_code: "INTERNAL_ERROR"}).end();
-        else if(!userDt._id) return res.send({ error_code: "AUTH", message: "Please enter valid email or password." }).end();
+        else if(userDt == null) return res.send({ error_code: "AUTH", message: "Please enter valid email or password." }).end();
         else {
             let isValidPassword = h_bcrypt.compareText(userJson.password, userDt.password);
 
