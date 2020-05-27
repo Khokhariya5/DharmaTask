@@ -62,7 +62,7 @@ exports.login = async (req, res) => {
         else {
             let isValidPassword = h_bcrypt.compareText(userJson.password, userDt.password);
 
-            if(!isValidPassword) return res.status(401).send({ error_code: "AUTH", message: "Please enter valid email or password." }).end();
+            if(!isValidPassword) return res.status(200).send({ error_code: "AUTH", message: "Please enter valid email or password." }).end();
     
             let payload = {
                 id: userDt._id.toString(),
