@@ -9,4 +9,6 @@ router.get('/user', jwtAuth,tasksController.getTaskByUserId);
 
 router.post('/create', jwtAuth,tasksController.addTask);
 
+router.get('/all',tasksController.getAllTaskData);
+
 module.exports = router

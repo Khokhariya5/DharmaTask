@@ -49,3 +49,25 @@ exports.getTaskByUserId = async (req, res) => {
     })
 
 }
+
+exports.getAllTaskData = async (req, res) => {
+
+    taskModel.aggregate([
+        {
+          $lookup:
+            {
+              from: "users",
+              localField: "userId",
+              foreignField: "_id",
+              as: "user"
+            }
+       }
+     ]).then( (result) => {
+        return res.status(200).send({ data: result }).end();
+     })
+     .catch( (error) => {
+         console.log(error)
+        return res.status(401).send({ error_code: "INTERNAL_ERROR"}).end();
+     })
+
+}
